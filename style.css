@@ -65,7 +65,7 @@ header .btn{
     margin-top: 9px;
 }
 
-header .btn .grey{
+header .btn.grey{
     background-color: #464646;
 }
 
@@ -73,8 +73,23 @@ header .btn.red{
     background-color: red;
 
 }
-.container:after{
+.container:after, header nav ul li:after{
     content: "";
     display: block;
     clear: both;
+}
+.border {
+    border-bottom: solid 1px #464646;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    float: left;
+}
+i {
+    margin-right: 10px;
+    font-size: 18px;
 }
