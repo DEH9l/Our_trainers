@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 1.5625rem 0 0.75rem;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.logo {
+    display: inline-block;
+    max-width: 351px;
+    float: left;
+}
+.logo img {
+    width: 100%;
+}
+header form{
+    background-color: #ebebeb;
+    width: 208px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-left: 25px;
+    float: right;
+}
+header form input{
+    width: 70%;
+    border: none;
+    background: transparent;
+    line-height: 42px;
+    display: inline-block;
+    vertical-align: top;
+    color: #959595;
+    font-size: 15px;
+    padding-left: 16px;
+    box-sizing: border-box;
+
+}
+header form button{
+    display: inline-block;
+    width: 27%;
+    height: 42px;
+    border: none;
+    background-color: transparent;
+    vertical-align: top;
+
+}
+header .btn{
+    min-width: 170px;
+    background-color: #252525;
+    color: white;
+    display: inline-block;
+    line-height: 42px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 24px;
+    float: right;
+    margin-top: 9px;
+}
+
+header .btn .grey{
+    background-color: #464646;
+}
+
+header .btn.red{
+    background-color: red;
+
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
