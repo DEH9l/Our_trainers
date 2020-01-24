@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705407ec-855f-402c-a9bb-ea47cdab070d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1579712589610" duration="31000" />
       <workItem from="1579717469935" duration="1856000" />
       <workItem from="1579846641787" duration="1606000" />
-      <workItem from="1579849301532" duration="1316000" />
+      <workItem from="1579849301532" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1579444988505</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579625934673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Header is ready">
+      <created>1579850839125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579850839125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,17 +163,23 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Test" />
     <MESSAGE value="Header_btn_done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header_btn_done" />
+    <MESSAGE value="Header is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header is ready" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1579625932881">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="439" y="27" key="CommitChangelistDialog2" timestamp="1579850837052">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="439" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579528399278" />
+    <state x="439" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579850837052" />
     <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579625932881" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579454641424">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="432" y="145" key="MultipleFileMergeDialog" timestamp="1579850899137">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="432" y="145" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1579850899137" />
+    <state x="414" y="208" key="Vcs.Push.Dialog.v2" timestamp="1579850844921">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="414" y="208" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1579850844921" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579454641424" />
     <state x="529" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579518631459">
       <screen x="0" y="0" width="1440" height="860" />
