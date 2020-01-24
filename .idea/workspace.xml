@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="705407ec-855f-402c-a9bb-ea47cdab070d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Trainers-min.psd" beforeDir="false" afterPath="$PROJECT_DIR$/7. Trainers-min.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +105,14 @@
       <workItem from="1579712589610" duration="31000" />
       <workItem from="1579717469935" duration="1856000" />
       <workItem from="1579846641787" duration="1606000" />
-      <workItem from="1579849301532" duration="1576000" />
+      <workItem from="1579849301532" duration="2246000" />
+      <workItem from="1579855748846" duration="1778000" />
+      <workItem from="1579857654112" duration="1756000" />
+      <workItem from="1579859509209" duration="1783000" />
+      <workItem from="1579861364735" duration="1387000" />
+      <workItem from="1579874344416" duration="387000" />
+      <workItem from="1579886779940" duration="16000" />
+      <workItem from="1579886809729" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1579444988505</created>
@@ -139,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579850839125</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Header is ready">
+      <created>1579850947476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579850947476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,19 +184,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Header is ready" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="27" key="CommitChangelistDialog2" timestamp="1579850837052">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1579888188268">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579850837052" />
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579625932881" />
+    <state x="439" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579850945081" />
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888188268" />
     <state x="432" y="145" key="MultipleFileMergeDialog" timestamp="1579850899137">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="432" y="145" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1579850899137" />
-    <state x="414" y="208" key="Vcs.Push.Dialog.v2" timestamp="1579850844921">
+    <state x="414" y="208" key="Vcs.Push.Dialog.v2" timestamp="1579850953535">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="414" y="208" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1579850844921" />
+    <state x="414" y="208" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1579850953535" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579454641424" />
     <state x="529" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579518631459">
       <screen x="0" y="0" width="1440" height="860" />

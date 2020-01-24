@@ -54,7 +54,6 @@ header nav ul li a:after{
     background-color: #ff0000;
     transition: 0.5s;
 }
-
 header nav ul li:hover a:after, header nav ul li.active a:after{
     width: 100%;
 }
@@ -115,10 +114,13 @@ header .btn.red{
     background-color: red;
 
 }
-.container:after, header nav ul li:after{
+.container:after, header nav ul li:after {
     content: "";
     display: block;
     clear: both;
+}
+.fas, .far{
+    margin-right: 10px;
 }
 .border {
     border-bottom: solid 1px #464646;
@@ -135,15 +137,11 @@ header nav ul li {
     margin-right: 30px;
     font-size: 25px;
 }
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: white;
 }
-.fas, .far{
-    margin-right: 10px;
-    font-size: 18px;
-}
-.soc_icon {
+header .soc_icon {
     margin-right: 15px;
     float: right;
     background-color: red;
@@ -152,18 +150,18 @@ header nav ul li a{
     min-width: 20px;
     padding: 3px 3px 2px;
 }
-.soc_icon:first-of-type{
+header .soc_icon:first-of-type{
     margin-right: 0;
 }
-.soc_icon i{
+header .soc_icon i{
     color: black;
     font-size: 20px;
 }
-.fab.fa-facebook-f{
+header .fab.fa-facebook-f{
     position: relative;
     bottom: -3px;
 }
-.soc_icon:after{
+header .soc_icon:after{
     content: "";
     clear: both;
     display: block;
@@ -179,4 +177,100 @@ h1:after{
     border-bottom: red solid 1px;
     content: '';
     padding-top: 20px;
+}
+section{
+    height: 500px;
+}
+footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.subscribe_form{
+    max-width: 920px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.subscribe_form p{
+    color: white;
+    font-family: 'Metropolis';
+    font-size: 24px;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+.subscribe_form form{
+    margin: auto;
+    max-width: 740px;
+}
+.subscribe_form form input{
+    line-height: 42px;
+    width: 390px;
+    padding-left: 30px;
+    font-family: 'Metropolis';
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.subscribe_form form button{
+    line-height: 52px;
+    margin-left: 30px;
+    width: 310px;
+    font-family: 'Metropolis';
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+}
+.bot_menu{
+    background-color: #252525;
+    color: white;
+    z-index: 1;
+    padding-bottom: 65px;
+    padding-top: 50px;
+}
+.bot_menu .container{
+    max-width: 1170px;
+    margin: auto;
+}
+.bot_menu .container img{
+    max-width: 250px;
+    display: inline-block;
+    padding-bottom: 45px;
+    padding-right: 40px;
+}
+.bot_menu .container .soc_icon{
+    margin-right: 15px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    min-width: 20px;
+    padding: 3px 3px 2px;
+}
+footer .soc_icon i{
+    color: #252525;
+    font-size: 20px;
+}
+.bot_nav{
+    font-family: 'Metropolis';
+    display: inline-block;
+    max-width: 150px;
+    vertical-align: top;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bot_nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.bot_nav:before{
+    clear: both;
+    display: block;
+    content: '';
+}
+.bot_nav:after{
+    content: '';
+    display: block;
 }
