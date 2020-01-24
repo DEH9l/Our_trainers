@@ -237,14 +237,13 @@ footer{
     max-width: 250px;
     display: inline-block;
     padding-bottom: 45px;
-    padding-right: 40px;
 }
 .bot_menu .container .soc_icon{
     margin-right: 15px;
     background-color: red;
     display: inline-block;
     text-align: center;
-    min-width: 20px;
+    width: 20px;
     padding: 3px 3px 2px;
 }
 footer .soc_icon i{
@@ -264,13 +263,4 @@ footer .soc_icon i{
     color: white;
     text-decoration: none;
     line-height: 40px;
-}
-.bot_nav:before{
-    clear: both;
-    display: block;
-    content: '';
-}
-.bot_nav:after{
-    content: '';
-    display: block;
 }
