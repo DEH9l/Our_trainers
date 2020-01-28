@@ -59,7 +59,7 @@ header nav ul li:hover a:after, header nav ul li.active a:after{
 }
 header form{
     background-color: #ebebeb;
-    width: 208px;
+    max-width: 208px;
     height: 42px;
     display: inline-block;
     border-radius: 4px;
@@ -79,7 +79,6 @@ header form input{
     font-size: 15px;
     padding-left: 16px;
     box-sizing: border-box;
-
 }
 header form button{
     display: inline-block;
@@ -91,7 +90,7 @@ header form button{
     color: red;
 }
 header .btn{
-    min-width: 170px;
+    max-width: 170px;
     background-color: #252525;
     color: white;
     display: inline-block;
@@ -102,6 +101,7 @@ header .btn{
     margin-left: 24px;
     float: right;
     margin-top: 9px;
+    padding: 0 10px;
     font-family: 'Metropolis';
     font-size: 15px;
 }
@@ -127,10 +127,10 @@ header .btn.red{
     padding-bottom: 21px;
     margin-bottom: 21px;
 }
-header nav ul {
+ul {
     list-style: none;
 }
-header nav ul li {
+header nav ul li{
     float: left;
     font-family: 'Bebas Neue';
     color: white;
@@ -179,7 +179,7 @@ h1:after{
     padding-top: 20px;
 }
 section{
-    height: 500px;
+    height: 1px;
 }
 footer{
     background-color: black;
@@ -202,10 +202,12 @@ footer{
 .subscribe_form form{
     margin: auto;
     max-width: 740px;
+    text-align: center;
 }
 .subscribe_form form input{
     line-height: 42px;
-    width: 390px;
+    max-width: 390px;
+    width: 100%;
     padding-left: 30px;
     font-family: 'Metropolis';
     font-size: 20px;
@@ -214,7 +216,8 @@ footer{
 .subscribe_form form button{
     line-height: 52px;
     margin-left: 30px;
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
     font-family: 'Metropolis';
     font-size: 20px;
     background-color: red;

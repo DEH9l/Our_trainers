@@ -1,0 +1,82 @@
+@media only screen and (max-width: 767px) {
+*{
+    padding: 0;
+}
+    .logo{
+        max-width: 130px;
+        padding-left: 10px;
+    }
+    .btn{
+        width: 40px;
+        overflow: hidden;
+        color: transparent;
+        min-width: 0;
+        height: 40px;
+        content: '';
+    }
+    header .btn{
+        margin: 0 10px 0 0;
+        text-align: center;
+        padding: 0;
+        float: right;
+        display: block;
+    }
+    .border {
+        margin-bottom: 0;
+    }
+    header nav ul li{
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }
+    header nav ul li a:after{
+         content: "";
+         display: block;
+         height: 4px;
+         width: 0;
+         background-color: #ff0000;
+         transition: 0.5s;
+         margin: auto;
+         clear: both;
+     }
+    header nav ul li:hover a:after, header nav ul li.active a:after {
+        width: 40%;
+    }
+    .menu{
+        background-color: black;
+    }
+    header .soc_icon {
+       display: none;
+    }
+    .fas, .far {
+        margin-right: 0;
+        text-align: center;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .subscribe_form form input{
+        padding-left: 0;
+        text-align: center;
+        width: 96%;
+        margin-bottom: 10px;
+    }
+    .subscribe_form form button{
+        line-height: 52px;
+        margin: auto;
+        display: block;
+    }
+    .bot_menu .container img{
+        display: none;
+    }
+    .footer_icons{
+        padding-top: 50px;
+        padding-left: 30px;
+        display: block;
+    }
+    .bot_nav{
+        float: none;
+    }
+}
