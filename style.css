@@ -120,6 +120,7 @@ header .btn.red{
     clear: both;
 }
 .fas, .far{
+    vertical-align: middle;
     margin-right: 10px;
 }
 .border {
@@ -261,6 +262,11 @@ footer .soc_icon i{
     float: right;
     padding-left: 30px;
     padding-right: 30px;
+}
+.bot_nav:first-of-type{
+    clear: both;
+    content: '';
+    display: inline-block;
 }
 .bot_nav a{
     color: white;
